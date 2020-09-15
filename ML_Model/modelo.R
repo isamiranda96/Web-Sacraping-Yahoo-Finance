@@ -11,9 +11,9 @@ library(lubridate)
 
 #cargamos la data
 
-sniim_data <- read.csv("data_sniim.csv", encoding = "latin1")
+sniim_data <- read.csv("./Result_Datasets/data_sniim.csv", encoding = "latin1")
 
-yahoo_data <- read.csv("data_yahoo.csv")
+yahoo_data <- read.csv("./Result_Datasets/data_yahoo.csv")
 
 #estandarizamos
 
